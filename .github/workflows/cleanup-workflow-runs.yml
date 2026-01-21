@@ -33,6 +33,3 @@ jobs:
           retain_days: ${{ github.event.inputs.days_to_keep || '14' }}
           keep_minimum_runs: 24
           dry_run: ${{ github.event.inputs.dry_run || false }}
-
-          keep_minimum_runs: 24
-          dry_run: ${{ github.event.inputs.dry_run || false }}
