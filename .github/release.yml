@@ -7,17 +7,26 @@ changelog:
 
   categories:
     - title: Improvements
-      type:
+      labels:
         - enhancement
 
     - title: Bug Fixes
-      type:
+      labels:
         - bug
 
-    - title: Documentaion
-      type:
+    - title: UI Fixes
+      labels:
+        - ui
+
+    - title: Documentation
+      labels:
         - documentaion
 
+    - title: CI/PR Workflow
+      labels:
+        - ci
+        - pr
+
     - title: Other Changes
-      type:
+      labels:
         - "*"
