@@ -9,24 +9,19 @@ changelog:
     - title: Improvements
       labels:
         - enhancement
-
     - title: Bug Fixes
       labels:
         - bug
-
     - title: Refactorings
       labels:
         - refactoring
-
     - title: Documentation
       labels:
-        - documentaion
-
+        - documentation
     - title: CI/PR Workflow
       labels:
         - ci
         - pr
-
     - title: Other Changes
       labels:
         - "*"
