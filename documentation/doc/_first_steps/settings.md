@@ -38,6 +38,8 @@ To access these settings, simply press the 'tools' button located in the GdUnit 
 
   * **Test Discovery**<br>
    This setting configures the auto-discovery of tests. If enabled, it will scan the configured Test Root Folder for available tests at startup.
+   Directories containing a `.gdignore` file are excluded from test discovery,
+   consistent with how Godot itself ignores those directories.
 
   * **Test Root Folder**<br>
    This setting defines the root folder where automated tests will be generated. By default, tests are usually located parallel to the source code in
